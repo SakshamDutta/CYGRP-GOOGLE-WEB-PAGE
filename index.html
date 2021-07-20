@@ -30,13 +30,12 @@ nav {
 footer {
     background-color: #F2F2F2;
     position: fixed;   
-    width: 100vw;
+    width: 100%;
     bottom: 0;  
 }
 
 #footer-left {
     display: flex;
-      
     padding-left: 20px; 
     align-items: center;
 }
@@ -44,17 +43,20 @@ footer {
 #footer-right {
 
     display: flex;
-    margin-right: 20px;
+    padding-right: 20px;
     align-items: center;
+}
+nav ul a {
+    padding: 10px;
 }
 
 
 </style>
 <body>
     <div class="topnav navbar">
-        <a style="cursor: pointer;"><button class="btn btn-primary">Sign In</button></a>
-        <a style="cursor: pointer;">Images</a>
-        <a style="cursor: pointer;">Gmail</a>
+        <a ><button class="btn btn-primary">Sign In</button></a>
+        <a >Images</a>
+        <a >Gmail</a>
         
       </div>
       <div class="container-fluid text-center">
@@ -71,14 +73,14 @@ footer {
     <footer>
         <nav id="footer-nav" >
             <ul id="footer-left" >
-                <a href="#" >Advertising</a>
+                <a href="#">Advertising</a>
                 <a href="#">Business</a>
                 <a href="#">How Search works</a>
             </ul>
             <ul id="footer-right">
-                <a href="#" style="padding:10px;">Privacy</a>
-                <a href="#" style="padding:10px;">Terms</a>
-                <a href="#" style="padding:10px;">Settings</a>
+                <a href="#" >Privacy</a>
+                <a href="#" >Terms</a>
+                <a href="#" >Settings</a>
             </ul>
         </nav>
     </footer>
